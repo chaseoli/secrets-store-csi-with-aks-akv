@@ -12,10 +12,10 @@ env:
   IMAGENAME: "example-image-v1"
   REGISTRYSKU: "Basic"
   REGISTRYNAME: "exampleacr"
-  REGISTRYLOCATION: ${{ env.LOCATION }}
+  REGISTRYLOCATION: "eastus"
   CLUSTERNAME: "secret-store-csi-aks-akv"
-  APPINSIGHTSLOCATION: ${{ env.LOCATION }}
-  CLUSTERLOCATION: ${{ env.LOCATION }}
+  APPINSIGHTSLOCATION: "eastus"
+  CLUSTERLOCATION: "eastus"
   AGENTCOUNT: "3"
   AGENTVMSIZE: "Standard_B2s"
   KUBERNETESVERSION: 1.17.13
